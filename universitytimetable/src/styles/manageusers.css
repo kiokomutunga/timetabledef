@@ -1,0 +1,78 @@
+.manage-users-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status.active {
+    color: green;
+  }
+  
+  .status.inactive {
+    color: orange;
+  }
+  
+  .status.banned {
+    color: red;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  .reset-btn {
+    background-color: purple;
+    color: white;
+  }
+  .add-user-btn{
+    background-color: rgb(66, 43, 179);
+    color: white;
+
+  }
+  
+  .pagination {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

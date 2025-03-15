@@ -1,0 +1,42 @@
+.timetable-container {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #003366;
+  }
+  
+  .year-section {
+    margin-bottom: 30px;
+  }
+  
+  .year-section h3 {
+    background: #003366;
+    color: white;
+    padding: 10px;
+  }
+  
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .timetable-table th, .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .timetable-table th {
+    background: #003366;
+    color: white;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+    cursor: grab;
+  }
+  

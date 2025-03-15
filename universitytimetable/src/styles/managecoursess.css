@@ -1,0 +1,37 @@
+.manage-courses {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-courses h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+  }
+  
+  .course-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-links li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-links li:last-child {
+    border-bottom: none;
+  }
+  
+  .course-links li a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .course-links li a:hover {
+    color: #1b5e20;
+  }
+  

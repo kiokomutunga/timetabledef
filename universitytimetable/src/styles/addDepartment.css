@@ -1,0 +1,36 @@
+input[type = "text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #004080;
+    margin: auto;
+    background-color: rgb(233, 229, 229); 
+
+
+
+}
+
+button {
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6ccc4c;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    
+
+}
+form {
+    padding:20px;
+    background-color: rgb(233, 229, 229);
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    color: #6ccc4c;
+}

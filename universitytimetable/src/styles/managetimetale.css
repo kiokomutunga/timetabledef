@@ -1,0 +1,80 @@
+.timetable-container {
+    max-width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  h2, h3 {
+    color: #002147;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #002147;
+    border-radius: 5px;
+  }
+  
+  .form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input, .form-container select {
+    padding: 8px;
+    border: 1px solid #002147;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: #002147;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #004080;
+  }
+  
+  .year-section {
+    margin-bottom: 30px;
+  }
+  
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .timetable-table th, .timetable-table td {
+    border: 1px solid #002147;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .timetable-table th {
+    background-color: #002147;
+    color: white;
+  }
+  
+  .export-btn {
+    background-color: #004080;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .export-btn:hover {
+    background-color: #002147;
+  }
+  
